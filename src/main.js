@@ -1,3 +1,7 @@
 import './style.scss';
+import './styles/header_main.scss';
+import headerPage from './Components/Header/header';
 
-console.log("I'm here!!!");
+const container = document.querySelector('.container');
+
+container.appendChild(headerPage);

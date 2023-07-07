@@ -1,22 +1,31 @@
-/node_modules
-/test/js
-/test/browsertest/js
-/test/fixtures/temp-*
-/test/temp
-/test/ChangesAndRemovals
-/test/**/dev-defaults.webpack.lock
-/benchmark/js
-/benchmark/fixtures
-/examples/**/dist
-/assembly/**/*.wat
-/assembly/**/*.wasm
-/coverage
-/.nyc_output
-/.jest-cache
-.DS_Store
-*.log
-.idea
+*.*~
+
 .vscode
-.cache
+.vs
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
 .eslintcache
-package-lock.json
+
+# Build results
+dist

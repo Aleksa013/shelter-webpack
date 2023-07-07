@@ -1,2 +1,11 @@
-$color_main:#F1CDB3;
-$color_light:#FAFAFA;
+$color-primary:#F1CDB3;
+$color-light-s:#FAFAFA;
+$color-dark-s:#CDCDCD;
+
+
+
+:export{
+    color-primary:$color-primary;
+    color-light-s:$color-light-s;
+    color-dark-s:$color-dark-s;
+}
