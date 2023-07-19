@@ -1,0 +1,22 @@
+
+.not-only{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: url('../asset/start-screen-gradient-background.jpg');
+    &-wrapper{
+        width: 50%;
+        margin-top: 22%;
+    }
+    &-header{
+       @include georgia;
+       font-size: 44px;
+       line-height: 130%;
+       color: $color-light-xl;
+       
+    }
+}
+.not-only-puppy{
+    width: 50%;
+    background-image: url('../asset/start-screen-puppy.png');
+}

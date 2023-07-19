@@ -1,7 +1,10 @@
 import './style.scss';
 import './styles/header_main.scss';
-import headerPage from './Components/Header/header';
+
+import NotOnlyComponent from './Components/Not_only_people/not_only';
+
 
 const container = document.querySelector('.container');
 
-container.appendChild(headerPage);
+container.appendChild(NotOnlyComponent);
+console.log(NotOnlyComponent);

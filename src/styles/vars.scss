@@ -1,11 +1,21 @@
 $color-primary:#F1CDB3;
 $color-light-s:#FAFAFA;
+$color-light-xl:#FFF;
 $color-dark-s:#CDCDCD;
+$color-dark-3-xl:#292929;
+$start-screen-gradient-background:#211F20;
 
 
 
-:export{
-    color-primary:$color-primary;
-    color-light-s:$color-light-s;
-    color-dark-s:$color-dark-s;
+
+
+@mixin georgia{
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 400;
+    
+}
+@mixin arial{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }

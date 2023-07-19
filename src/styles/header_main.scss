@@ -9,39 +9,51 @@
     .logo{
         width: 184px;
         height: 60px;
+        margin: 0 0 0 33px;
         flex-shrink: 0;
         &-head{
-            font-family: Georgia;
+            width: max-content;
+            margin: 22px 0 8px;
+            @include georgia;
             font-size: 32px;
             font-style: normal;
             font-weight: 400;
             line-height: 110%;
             letter-spacing: 1.92px;
+            color: $color-primary;
         }
         &-text{
-            font-family: Arial;
+            @include arial;
             font-size: 13px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
             letter-spacing: 1.3px;
+            color: $color-light-xl;
+            
         }
     }
     .nav{
         &-list{
-        width: 443px;
-        height: 27px;
-        flex-shrink: 0;
+            display: flex;
+            width: 136%;
+            height: 27px;
+            padding: 0;
+            justify-content: space-between;
         &-item{
             display: inline-flex;
             flex-direction: column;
             align-items: center;
+            margin: 5% 0 ;
             gap: 10px;
-            color: color-dark-s;
+            a{
+                color: $color-dark-s;
+                @include arial;
+            }
         }
         :hover{
-            color:color-light-s;
-            text-decoration: underline color-primary 2px;
+            color:$color-light-s;
+            text-decoration: underline $color-primary 2px;
         }
         &-link{
             list-style-type: none;

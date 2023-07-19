@@ -40,11 +40,12 @@ module.exports = {
     },
     {
         test:/\.(?:ico|gif|png|jpg|jpeg|svg)$/i,
-        type:'assets/resource',
+        type:'asset/resource',
+        
     },
     {
         test:/\.(woff(2)?|eot|ttf|otf)$/i,
-        type:'assets/resource',
+        type:'asset/resource',
     }
   ]
   },
