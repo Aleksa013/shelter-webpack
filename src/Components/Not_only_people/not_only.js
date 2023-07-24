@@ -2,7 +2,7 @@ import htmlToElements from "../../utils/htmlToElements";
 import NotOnly from './not_only.html';
 import headerPage from "../Header/header";
 import BtnComp from "../Button/button";
-import '../../style.scss';
+import '../../styles/style.scss';
 import '../../styles/header_main.scss';
 import '../../styles/not_only.scss';
 import Puppy from '../../asset/start-screen-puppy.png';

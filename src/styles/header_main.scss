@@ -56,6 +56,9 @@
 
             }
         }
+        &-item:last-child{
+            margin: 5% 8% 5% 0;
+        }
         :hover{
             color:$color-light-s;
             text-decoration: underline $color-primary 2px;

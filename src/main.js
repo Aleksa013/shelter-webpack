@@ -1,4 +1,4 @@
-import './style.scss';
+import './styles/style.scss';
 import './styles/header_main.scss';
 
 import NotOnlyComponent from './Components/Not_only_people/not_only';

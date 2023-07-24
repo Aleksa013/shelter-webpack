@@ -7,18 +7,31 @@ header{
     flex-wrap: wrap;
     background: url('../asset/start-screen-gradient-background.jpg');
     &-wrapper{
-        width: 50%;
-        margin-top: 22%;
+        width: 39%;
+        margin: 19.5% 0 28% 2%;
     }
     &-header{
        @include georgia;
-       font-size: 44px;
-       line-height: 130%;
-       color: $color-light-xl;
+       font-size: 270%;
+       line-height: 136%;
+       color: #FFF;
+       letter-spacing: 0.05em;
+       margin: 6.5% 22% 7.5% 3%;
        
+    }
+    &-text{
+        width: 95%;
+        margin: 2% 0% 7.5% 3%;
+        @include arial;
+        font-size: 94%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        letter-spacing: 0.001em;
+        color:$color-dark-s;
     }
 }
 .not-only-puppy{
-    width: 50%;
-    background-image: url('../asset/start-screen-puppy.png');
+    width: 58%;
+    background: url(http://localhost:9000/assets/start-screen-puppy.png) no-repeat 7% 51%;
 }

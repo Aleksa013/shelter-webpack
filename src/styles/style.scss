@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
 }
@@ -20,7 +21,16 @@ body{
     background-color: $color-primary;
     border-color: 1px solid $color-primary;
     border-radius: 100px;
-    padding: 15px 45px;
+    padding: 3% 0%;
+    margin: 0 3% 0 3%;
+    &-text{
+        @include georgia;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; 
+        letter-spacing: 0.1em;
+    }
  
 }
 }
