@@ -2,9 +2,11 @@ import './styles/style.scss';
 import './styles/header_main.scss';
 
 import NotOnlyComponent from './Components/Not_only_people/not_only';
+import AboutComponent from './Components/About/about';
 
 
 const container = document.querySelector('.container');
 
 container.appendChild(NotOnlyComponent);
+container.appendChild(AboutComponent);
 console.log(NotOnlyComponent);

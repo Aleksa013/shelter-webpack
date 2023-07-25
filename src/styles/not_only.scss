@@ -5,10 +5,11 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: url('../asset/start-screen-gradient-background.jpg');
+    background: url('../asset/start-screen-gradient-background.jpg'), no-repeat;
+    background-size: cover;
     &-wrapper{
         width: 39%;
-        margin: 19.5% 0 28% 2%;
+        margin: 19.5% 0 19% 2%;
     }
     &-header{
        @include georgia;
@@ -33,5 +34,5 @@ header{
 }
 .not-only-puppy{
     width: 58%;
-    background: url(http://localhost:9000/assets/start-screen-puppy.png) no-repeat 7% 51%;
+    background: url(http://localhost:9000/assets/start-screen-puppy.png) no-repeat 7% 100%;
 }

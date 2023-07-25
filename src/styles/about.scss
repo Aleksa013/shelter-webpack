@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    &-animals{
+        width: 50%;
+        background-image: url('../asset/about-pets.png');  
+        background-repeat: no-repeat;
+        background-position: 63% 46%;    
+    }
+    &-content{
+        width: 50%;
+        &-header{
+            margin: 15% 43% 4% -1%;
+            @include georgia;
+            font-size: 227%;
+            line-height: 125%;
+            letter-spacing: 0.06em;
+            color:$color-dark-l;
+        }
+        &-text{
+            width: 66%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;            
+            @include arial;
+            font-size: 94%;
+            font-style: normal;
+            line-height: 160%;
+            color: #4C4C4C;
+            margin: 0 34% 17% -1%;
+           
+            span{
+                margin: 0 0 6% 0;
+            }
+
+        }
+    }
+}
