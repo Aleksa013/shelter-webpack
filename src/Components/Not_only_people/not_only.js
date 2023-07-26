@@ -6,16 +6,16 @@ import '../../styles/style.scss';
 import '../../styles/header_main.scss';
 import '../../styles/not_only.scss';
 import Puppy from '../../asset/start-screen-puppy.png';
-import BackgroungOnly from '../../asset/start-screen-gradient-background.jpg'
+import BackgroungOnly from '../../asset/start-screen-gradient-background.jpg';
 
 
 const NotOnlyComponent = htmlToElements(NotOnly);
 const notOnlyBtn= NotOnlyComponent.querySelector('.btn-cont');
-const imagePuppy = NotOnlyComponent.querySelector('.not-only-puppy');
+// const imagePuppy = NotOnlyComponent.querySelector('.not-only-puppy');
 const headerMain = NotOnlyComponent.querySelector('header');
 headerMain.appendChild(headerPage);
 
-console.log(notOnlyBtn);
+// console.log(notOnlyBtn);
 BtnComp(notOnlyBtn,'Make a friend','button-primary','button-primary-text','#');
 
 export default NotOnlyComponent;

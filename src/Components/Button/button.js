@@ -1,8 +1,8 @@
 
-const but = document.createElement('div');
 
 
 const BtnComp= function(elem, text, classBtn, classText, link){
+    const but = document.createElement('div');
     but.classList.add('button',classBtn);
     but.innerHTML=`
     <span class= ${classText}>
@@ -10,7 +10,7 @@ const BtnComp= function(elem, text, classBtn, classText, link){
     </a>
     </span>
     `;
-    elem.append(but);
+    elem.appendChild(but);
 
 };
 
