@@ -13,8 +13,8 @@ const cards = OurFriends.querySelector('.our-cards');
 const btnPre = OurFriends.querySelector('.our-button_pre');
 const btnNext = OurFriends.querySelector('.our-button_next');
 const btnOur = OurFriends.querySelector('.our-button');
-BtnComp(btnPre, Arrow, 'our-pre-button', 'arrow-pre', "#");
-CardComp(cards,'Katarine', Katty);
+
+CardComp(cards,'Katrine', Katty);
 CardComp(cards,'Jennifer', Jen);
 CardComp(cards,'Woody', Woody);
 

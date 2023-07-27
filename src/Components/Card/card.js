@@ -4,9 +4,9 @@ const CardComp= function(elem,name,linkImage){
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML=`
-    <img src=${linkImage} class="card-image"></img>
+    <img src=${linkImage} class="card-image" alt=${name} ></img>
     <h3 class="card-name">${name}</h3>
-    <div class="card-button"></div>
+    <div ></div>
      `;
     const cardBtn = card.querySelector('div');
     console.log(cardBtn);
