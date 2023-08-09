@@ -17,6 +17,6 @@ const btnOur = OurFriends.querySelector('.our-button');
 CardComp(cards,'Katrine', Katty);
 CardComp(cards,'Jennifer', Jen);
 CardComp(cards,'Woody', Woody);
-
+BtnComp(btnOur, 'Get to know the rest', 'button-primary','button-primary-text','#');
 
 export default OurFriends;

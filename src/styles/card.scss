@@ -1,32 +1,41 @@
 .card{
-    width: 25.8%;
-    margin: 0 0 0 3%;
+    width: 25%;
+    margin: 0 0 0 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 9px;
     background-color: $color-light-s;
     img{
-        width: 97%;
+        width: 99%;
     }
    .wrapper-btn{
     width: 100%;
+    margin: 0 0 7%;
+    .btn-link{
+        @include georgia;
+        color:$color-dark-3-xl;
+        line-height: 130%; 
+        letter-spacing: 0.1em;
+        font-size: 110%;
+        
+    }
    }
     &-name{
         @include georgia;
         color:$color-dark-l;
         font-size: 130%;
         letter-spacing: 0.08em;
-        margin: 11% 0% 13%;
+        margin: 11% 0% 7%;
     }
     &-button{
         width: 50%;
         border-radius: 30px;
-        padding: 5% 11%;
+        padding: 5% 8.5%;
         margin: 3.5% auto;
         border:3px solid $color-primary;
     }
 }
 .card:first-of-type{
-    margin:0 0 0 4%;
+    margin:0 0 0 4.2%;;
 }
