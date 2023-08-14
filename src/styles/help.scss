@@ -1,0 +1,43 @@
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.3% 7% 5%;
+    &-header{
+        width: 31%;
+        text-align: center;
+        @include georgia;
+        line-height: 130%;
+        letter-spacing: 0.09em;
+        font-size: 222%;
+    }
+    &-types{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 1em;
+        padding: 0.5% 0 0 0;
+    
+    figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        figcaption{
+            margin: 1.7em 0 0 0;
+            text-align: center;
+            @include georgia;
+            line-height: 115%;
+            letter-spacing: 0.12em;
+            font-size: 117%;
+        }
+    }
+    &-wrapper{
+        width: 93%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2% auto;
+    }
+}
+}
