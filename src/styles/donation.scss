@@ -1,0 +1,57 @@
+.donation{
+    background-color: $color-light-l;
+    display: flex;
+    padding: 6% 14% 7.5%;
+    &-poppy{
+        width:55%;
+        background-image: url('../asset/donation-dog.png');
+        background-repeat: no-repeat;
+        background-position: 163% 56%;
+    }
+    &-context{
+        width: 40%;
+        padding: 0.3% 0 0 3%;
+        &-header{
+            margin: 0 15% 5% 1%;
+            @include georgia;
+            font-size: 218%;
+            line-height: 130%;
+            letter-spacing: 0.1em;
+            color:$color-dark-l;
+        }
+        &-bank{
+            margin: 0 0 0 1%;
+            @include georgia;
+            line-height: 110%;
+            letter-spacing: 0.07em;
+            color:$color-dark-l;
+        }
+        &-req{
+            display: flex;
+            align-items: center;
+            background-color: $color-primary;
+            border-radius: 9px;
+            margin: 5% 4% 6% 1%;
+            padding: 3% 3% 2% 4%;
+            
+            span{
+                @include georgia;
+                line-height: 115%;
+                letter-spacing: 0.07em;
+                margin: 0 0 0 5%;
+                font-size: 136%;
+                color:$color-dark-l;
+            }
+        }
+        p{
+            @include arial;
+            line-height: 171%;
+            color: #B2B2B2;
+            font-size: 65%; 
+            margin: 0% 1% 0 1%;
+            letter-spacing: 0.07em;
+            font-style: italic;
+            color:$color-dark-m;
+        }
+    }
+}
