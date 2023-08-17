@@ -1,0 +1,54 @@
+footer{
+    display: flex;
+    background-image: url('../asset/footer-gradient-background.jpg');
+    background-repeat: no-repeat;
+    padding: 2% 3% 9%;
+    h3{
+        margin:10% 5% 0 0;
+        @include georgia;
+        font-size: 221%;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color:$color-light-xl;
+    }
+    span{
+        @include georgia;
+        font-size: 130%;
+        line-height: 156%;
+        letter-spacing: 0.04em;
+        color:$color-primary;
+    }
+    .left{
+        width:27%;
+        display: flex;
+        gap: 19% 6%;
+        flex-wrap: wrap;
+        // h3{
+        //     margin:10% 5% 12% 0;
+        //     @include georgia;
+        //     font-size: 221%;
+        //     line-height: 130%;
+        //     letter-spacing: 0.06em;
+        //     color:$color-light-xl;
+        // }
+    //     img{}
+    //     span{
+    //     @include georgia;
+    //     font-size: 130%;
+    //     line-height: 156%;
+    //     letter-spacing: 0.04em;
+    //     color:$color-primary;
+    // }
+    }
+    .right{
+        width:30%;
+        h3{}
+        img{}
+        span{}
+    }
+    .poppy{
+        width:40%;
+        background-image: url('../asset/footer-puppy.png');
+        background-repeat: no-repeat;
+    }
+}

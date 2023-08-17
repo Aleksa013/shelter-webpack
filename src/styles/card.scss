@@ -16,7 +16,7 @@
         @include georgia;
         color:$color-dark-3-xl;
         line-height: 130%; 
-        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
         font-size: 110%;
         
     }
@@ -25,7 +25,7 @@
         @include georgia;
         color:$color-dark-l;
         font-size: 130%;
-        letter-spacing: 0.08em;
+        letter-spacing: 0.04em;
         margin: 11% 0% 7%;
     }
     &-button{

@@ -10,7 +10,7 @@
         text-align: center;
         @include georgia;
         line-height: 130%;
-        letter-spacing: 0.09em;
+        letter-spacing: 0.05em;
         font-size: 222%;
     }
     &-types{
@@ -27,11 +27,11 @@
         align-items: center;
 
         figcaption{
-            margin: 1.7em 0 0 0;
+            margin: 1.6em 0 0 -0.1em;
             text-align: center;
             @include georgia;
             line-height: 115%;
-            letter-spacing: 0.12em;
+            letter-spacing: 0.1em;
             font-size: 117%;
         }
     }
@@ -40,6 +40,13 @@
         display: flex;
         justify-content: space-evenly;
         margin: 2% auto;
+        figure{
+            figcaption{
+                margin: 1.7em 0 0 0.3em;
+    
+            }
+        }
+        
     }
 }
 }

@@ -6,6 +6,7 @@ import AboutComponent from './Components/About/about';
 import OurFriends from './Components/OurFriends/our_friends';
 import HelpOur from './Components/Help/help';
 import DonationEl from './Components/Donation/donation';
+import Footer from './Components/Footer/footer';
 
 const container = document.querySelector('.container');
 
@@ -14,4 +15,5 @@ container.appendChild(AboutComponent);
 container.appendChild(OurFriends);
 container.appendChild(HelpOur);
 container.appendChild(DonationEl);
+container.appendChild(Footer);
 console.log(NotOnlyComponent);
