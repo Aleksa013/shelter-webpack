@@ -2,9 +2,11 @@ footer{
     display: flex;
     background-image: url('../asset/footer-gradient-background.jpg');
     background-repeat: no-repeat;
-    padding: 2% 3% 9%;
+    padding: 2% 3% 4%;
+    gap: 3% 9%;
+   
     h3{
-        margin:10% 5% 0 0;
+        margin:3% 5% -2% 1%;
         @include georgia;
         font-size: 221%;
         line-height: 130%;
@@ -12,43 +14,60 @@ footer{
         color:$color-light-xl;
     }
     span{
+        margin: 0 6% 0 0;
         @include georgia;
         font-size: 130%;
         line-height: 156%;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.03em;
         color:$color-primary;
     }
+    
+    
     .left{
-        width:27%;
+        width:41%;
         display: flex;
-        gap: 19% 6%;
+        gap: 0% 7%;
         flex-wrap: wrap;
-        // h3{
-        //     margin:10% 5% 12% 0;
-        //     @include georgia;
-        //     font-size: 221%;
-        //     line-height: 130%;
-        //     letter-spacing: 0.06em;
-        //     color:$color-light-xl;
-        // }
-    //     img{}
-    //     span{
-    //     @include georgia;
-    //     font-size: 130%;
-    //     line-height: 156%;
-    //     letter-spacing: 0.04em;
-    //     color:$color-primary;
-    // }
+        align-items: center;
+        span:last-of-type{
+            margin: 0% 0 12% 0;
+            line-height: 113%;
+            letter-spacing: 0.04em;
+        }
+        img:last-of-type{
+            margin: 0% 0 12% 0;   
+        }
     }
     .right{
-        width:30%;
-        h3{}
-        img{}
-        span{}
+        width:41%;
+        display: flex;
+        gap: 11% 7%;
+        flex-wrap: wrap;
+        align-items: center;
+       h3{
+        margin:10% 5% 9% 1%;
+       }
+       img:last-of-type{
+        margin:10% 0 18%;
+     }
+       span{
+        width: 85%;
+        margin:0;
+        line-height: 115%;
+        
+       }
+       span:last-of-type{
+        margin: 10% 0 18% -1%;
+        line-height: 113%;
+        letter-spacing: 0.04em;
+       }
+      
+
     }
     .poppy{
         width:40%;
         background-image: url('../asset/footer-puppy.png');
         background-repeat: no-repeat;
+        background-position: 95% 100%;
     }
 }
