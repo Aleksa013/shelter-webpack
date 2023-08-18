@@ -49,6 +49,7 @@
             margin: 5% 0 ;
             
             a{
+                padding: 0 0 3px 0;
                 color: $color-dark-s;
                 @include arial;
                 line-height: 160%;
@@ -56,12 +57,26 @@
 
             }
         }
-        &-item:last-child{
+        &-item:first-of-type{
+           
+            
+            a{
+                padding: 0 0 1px 0;
+                color:$color-light-s;
+                border-bottom: 2px solid $color-primary;
+            }
+        }
+        &-item:last-of-type{
             margin: 5% 8% 5% 0;
+           
         }
         :hover{
-            color:$color-light-s;
-            text-decoration: underline $color-primary 2px;
+           
+            a{
+                padding: 0 0 1px 0;
+                color:$color-light-s;
+                border-bottom: 2px solid $color-primary;
+            }
         }
         &-link{
             list-style-type: none;

@@ -21,6 +21,13 @@
         
     }
    }
+   &:hover{
+    background-color: $color-light-xl;
+    .card-button{
+        background-color: $color-primary-light;
+        border:3px solid $color-primary-light ;
+    }
+   }
     &-name{
         @include georgia;
         color:$color-dark-l;
@@ -35,6 +42,7 @@
         margin: 3.5% auto;
         border:3px solid $color-primary;
     }
+    
 }
 .card:first-of-type{
     margin:0 0 0 4.2%;;

@@ -9,7 +9,7 @@ body{
 
 .button{
     display: flex;
-    width: 207px;
+    width: 41%;
     padding: 15px 45px;
     align-items: center;
     flex-direction: column;
@@ -19,7 +19,7 @@ body{
     }
    &-primary{
     background-color: $color-primary;
-    border-color: 1px solid $color-primary;
+    // border: 1px solid $color-primary;
     border-radius: 100px;
     padding: 3% 0%;
     margin: 8% 3% 0 3%;
@@ -31,6 +31,14 @@ body{
         line-height: 130%; 
         letter-spacing: 0.06em;
     }
+    &:hover{
+        border-color: $color-primary-light;
+        box-shadow: none;
+        transform: none;
+    }
  
 }
+}
+.button:hover{
+    cursor: pointer;
 }
