@@ -1,16 +1,24 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const pages = ['main', 'ourPets'];
 module.exports = {
-  entry: './src/main.js',
+  entry: pages.reduce((config, page)=>{
+    config[page] = `./src/${page}.js`;
+    return config;
+  },{}),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: '[name].js',
     assetModuleFilename: 'assets/[name][ext]',
   },
   mode: 'development',
   resolve:{
     extensions: ['.js', '.json'],
+  },
+  optimization:{
+    splitChunks:{
+      chunks: 'all',
+    }
   },
   module:{
     rules:[
@@ -49,13 +57,17 @@ module.exports = {
     }
   ]
   },
-  plugins:[
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-      filename: './index.html'
-    }), 
-  ],
-    devServer: {
+  plugins:[].concat(
+    pages.map(
+      (page)=>
+      new HtmlWebpackPlugin({
+        template: `./src/${page}.html`,
+        filename: `${page}.html`,
+        chunks: [page],
+      }),
+    )
+  ),    
+  devServer: {
       compress: true,
       port: 9000,
     },

@@ -10,10 +10,13 @@ import Footer from './Components/Footer/footer';
 
 const container = document.querySelector('.container');
 
+
 container.appendChild(NotOnlyComponent);
 container.appendChild(AboutComponent);
 container.appendChild(OurFriends);
 container.appendChild(HelpOur);
 container.appendChild(DonationEl);
 container.appendChild(Footer);
+
+
 console.log(NotOnlyComponent);
