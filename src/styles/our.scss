@@ -59,3 +59,49 @@
         }
     }
 }
+@media screen and (max-width:768px){
+    .our{
+        padding: 10% 4%;
+        justify-content: center;
+        align-items: center;
+        &-header{
+            margin: 0.5% 21% 5%;
+            width: 80%;
+        }
+        &-button_pre{
+            margin: -2% 0% 0 -3%;
+        }
+        &-button_pre:hover,
+        &-button_next:hover{
+            background-color: $color-primary-light;
+            border: 3px solid $color-primary-light;
+        }
+        &-button_next{
+            width: 3.2em;
+            height: 3.2em;
+            margin: -6% 0 0;
+            background-repeat: no-repeat;
+            border: 3px solid $color-primary;
+            border-radius: 50%;
+            background-position: 48% 50%;
+            background-image: url('../asset/Arrow-next.png');
+        }
+        &-cards{
+            width: 83%;
+            margin-bottom: 6%;
+            display: flex;
+            gap: 3em;
+        }
+        
+        &-button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .button{
+                width: 17%;
+                padding: 1.3% 2.2%;
+                margin: -1% 0 2%;
+            }
+        }
+    } 
+}
