@@ -55,3 +55,33 @@
         }
     }
 }
+@media only screen and (max-width: 768px){
+   .donation{
+    padding: 10% 0% 7.5%;
+    flex-direction: column-reverse;
+    align-items: center;
+    &-context{
+        width: 49%;
+        padding: 0.3% 0 0 0%;
+        &-header{
+            margin: 0 15% 5.5% 0%;
+        }
+        &-bank{
+            margin: 0;
+            letter-spacing: 0.02em;
+        }
+        &-req{
+            margin: 5% 8% 6% 0%;
+            padding: 2% 3% 2% 4%;
+        }
+        p{
+            margin: 0% 1% 0 -1%;
+        }
+    }
+    &-poppy{
+        height: 25.5vh;    
+        width: 66%;
+        background-position: 61% 60%;
+    }
+   } 
+}
