@@ -1,7 +1,9 @@
 footer{
     display: flex;
-    background-image: url('../asset/footer-gradient-background.jpg');
-    background-repeat: no-repeat;
+    // background-image: url('../asset/footer-gradient-background.jpg');
+    // background-repeat: no-repeat;
+    background-image: url('../asset/noise_transparent@2x.png'),
+    radial-gradient(237.50% 111.80% at 0% 0%, #5B483A 0%, #262425 100%);   ;
     padding: 2% 3% 4%;
     gap: 3% 9%;
    
@@ -70,4 +72,35 @@ footer{
         background-repeat: no-repeat;
         background-position: 95% 100%;
     }
+}
+@media only screen and (max-width: 768px){
+    footer{
+        padding: 1% 8% 0;
+        gap: 3% 5%;
+        flex-wrap: wrap;
+        justify-content: center;
+        .left{
+            width: 48%;
+            margin: 2% 0 0;
+            gap: 6% 7%;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: space-around;
+            h3{
+                margin: 0% 2% -2% 0%;
+            }
+        }
+        .right{
+            width: 47%;
+            h3{
+                margin: 8% 5% 9% 0%;
+            }
+        }
+        .poppy{
+            height: 23vh;
+            width: 100%;
+            background-position: 50% 100%;
+        }
+    }
+  
 }
