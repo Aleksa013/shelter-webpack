@@ -83,7 +83,11 @@
             text-decoration: none;
         }
         
-    }
+        }
+        &-burger{
+            display:none;
+        }
+   
 }
 }
 @media only screen and (max-width: 768px){
@@ -107,6 +111,29 @@
             }
             &-item:last-of-type{
                 margin: 3% 7% 3% 0;
+            }
+        }
+    }
+}
+}
+@media only screen and (max-width: 320px){
+  .header{
+    .logo{
+        margin: 8% 0 0 6%;
+        width: 60%;
+        &-text{
+            margin: 0 0% 0 3%;
+        }
+        }
+    
+    .nav{
+        &-list{
+            display: none;
+        }
+        &-burger{
+            display: flex;
+            span{
+                border: 3px solid $color-primary;
             }
         }
     }
