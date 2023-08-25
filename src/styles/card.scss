@@ -49,27 +49,39 @@
 }
 
 @media screen and (max-width:768px){
-    .card{
-        width: 45%;
-        margin:4% 0 0;
-        img{
-            width:105%;
+    .our_friends{
+        .card{
+            width: 45%;
+            margin:4% 0 0;
+            img{
+                width:105%;
+            }
+            &-name{
+                margin:9% 12% 0 14%;
+            }
+            
+          >.wrapper-btn{
+            .card-button{
+                width: 52%;
+                margin: 12% 10% 3.5% 14%;
+            }
+          }
         }
-        &-name{
-            margin:9% 12% 0 14%;
+        .card:first-of-type {
+            margin: 4% 0 0 1%;
         }
-        
-      >.wrapper-btn{
-        .card-button{
-            width: 52%;
-            margin: 12% 10% 3.5% 14%;
+        .card:last-of-type{
+            display: none;
         }
-      }
     }
-    .card:first-of-type {
-        margin: 4% 0 0 1%;
-    }
-    .card:last-of-type{
-        display: none;
+    .our{
+        .card{
+            width: 47%;
+            margin: 0 0 4.5% 0%;
+        }
+        .card:last-of-type,
+        .card:nth-of-type(7){
+            display: none;
+        }
     }
 }

@@ -84,3 +84,22 @@
         }
     }
 }
+@media only screen and (max-width: 768px){
+   .our{
+    padding: 7% 12% 9.5%;
+    &-header{
+        margin: 4% 0 0 0;
+    }
+    &-cards{
+        padding: 5% 0 1%;
+    }
+    &-pagination{
+        width: 57%;
+        column-gap: 7%;
+        div{
+            width: 2.7em;
+            height: 2.7em;
+        }
+    }
+   }
+    }

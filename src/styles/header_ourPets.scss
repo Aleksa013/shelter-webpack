@@ -81,3 +81,29 @@
     }
 }
 }
+@media only screen and (max-width: 768px){
+    .header{
+        padding: 2% 0%;
+        gap:0;
+        .logo{
+            margin: 0 0 0 3.5%;
+            width: 35%;
+            
+            &-head{
+                margin: 0 0 2% 1%;
+                font-size: 200%;
+                line-height: 114%;
+            }
+        }
+        .nav{
+            &-list{
+                &-item{
+                    margin: 3% 0 ;
+                }
+                &-item:last-of-type{
+                    margin: 3% 7% 3% 0;
+                }
+            }
+        }
+    }
+    }

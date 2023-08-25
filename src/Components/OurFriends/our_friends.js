@@ -8,9 +8,9 @@ import Katty from'../../asset/pets-katrine.png';
 import Jen from '../../asset/pets-jennifer.png';
 import Woody from '../../asset/pets-woody.png';
 const OurFriends = htmlToElements(Our);
-const cards = OurFriends.querySelector('.our-cards');
+const cards = OurFriends.querySelector('.our_friends-cards');
 
-const btnOur = OurFriends.querySelector('.our-button');
+const btnOur = OurFriends.querySelector('.our_friends-button');
 
 CardComp(cards,'Katrine', Katty);
 CardComp(cards,'Jennifer', Jen);
