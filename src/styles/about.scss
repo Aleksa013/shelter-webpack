@@ -58,3 +58,18 @@
         }
     }  
 }
+@media only screen and (max-width: 320px){
+    .about{
+        padding: 15% 8%;
+        &-animals{}
+        &-content{
+            &-header{
+                margin: 0% 9% 10% 10%;
+                line-height: 126%;
+                font-size: 155%;
+                letter-spacing: 0.065em;
+                text-align: center;
+            }
+        }
+    }
+}
