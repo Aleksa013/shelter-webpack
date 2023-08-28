@@ -85,3 +85,27 @@
         }
     }
 }
+@media screen and (max-width:320px) {
+   .our_friends{
+    .card:first-of-type{
+        margin:10% 0;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+        .card-name{
+            margin: 11% 14% 0;
+        }
+        .wrapper-btn{
+            .card-button{
+                width: 50%;
+                margin: 11% 10% 2% 16%;
+            }
+        }
+    }
+    .card:not(:first-of-type){
+        display: none;
+    }
+   }
+   
+}

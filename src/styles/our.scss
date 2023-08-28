@@ -98,3 +98,43 @@
         }
     } 
 }
+@media screen and (max-width:320px){
+    .our_friends{
+        position: relative;
+        padding: 13% 5%;
+        &-header{
+            margin: 1.5% 0% 5%;
+            width: 100%;
+            font-size: 161%;
+            letter-spacing: 0.04em;
+        }
+        &-button_pre{
+            position: absolute;
+            top: 76.3%;
+            left: 21%;
+            width: 3em;
+            height: 3em;
+        }
+        &-button_next{
+            position: absolute;
+            top: 76.3%;
+            left: 62%;
+            width: 3em;
+            height: 3em;
+        }
+        &-cards{
+            width: 94%;
+            margin: 0% 0.5% 25%;
+        }
+        &-button{
+            .button{
+                width: 85%;
+                padding: 4.5% 2.2%;
+                margin: 7% 0 3%;
+            }
+        }
+
+    }
+   
+}
+    

@@ -16,12 +16,12 @@ $start-screen-gradient-background:#211F20;
 
 @mixin georgia{
     font-family: 'Georgia', serif;
-    src: url('../asset/resourse/fonts/Georgia.ttf');    
+    src: url("../asset/resourse/fonts/Georgia.ttf");    
     font-weight: 400;
     
 }
 @mixin arial{
     font-family: 'Arial Th', sans-serif;
-    src: url('../asset/resourse/fonts/ArialTh.ttf');        
+    src: url("../asset/resourse/fonts/ArialTh.ttf");        
     font-weight: 400;
 }
