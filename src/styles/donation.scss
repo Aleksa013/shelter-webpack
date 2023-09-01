@@ -8,7 +8,7 @@
         background-repeat: no-repeat;
         background-position: 163% 56%;
     }
-    &-context{
+    &-content{
         width: 40%;
         padding: 0.3% 0 0 3%;
         &-header{
@@ -60,7 +60,7 @@
     padding: 10% 0% 7.5%;
     flex-direction: column-reverse;
     align-items: center;
-    &-context{
+    &-content{
         width: 49%;
         padding: 0.3% 0 0 0%;
         &-header{
@@ -84,4 +84,43 @@
         background-position: 61% 60%;
     }
    } 
+}
+@media screen and (max-width:320px) {
+   .donation{
+    padding: 0;
+    &-content{
+        padding:10% 0;
+        width: 100%;
+        &-header{
+            margin: 4% 17% 7.5% 17%;
+            font-size: 150%;
+            text-align: center;
+            letter-spacing: 0.08em;
+        }
+        &-bank{
+            margin: 0 7%;
+            letter-spacing: 0.001em;
+            font-size: 94%;
+        }
+        &-req{
+            margin: 7% 6%;
+            padding: 3% 4.6%;
+            span{
+                font-size: 100%;
+                margin: 0 0 0% 6%;
+                letter-spacing: 0.023em;
+            }
+        }
+        p{
+            margin: 0% 4% 0 6%;
+            letter-spacing: 0.1em;
+        }
+    }
+    &-poppy{
+    height: 11.6em;
+    width: 93%;
+    background-position: 51% 17%;
+    background-size: 89%;
+   } 
+}
 }
