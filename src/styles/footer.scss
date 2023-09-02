@@ -106,18 +106,45 @@ footer{
 }
 @media screen and (max-width:320px) {
     footer{
+        padding: 1% 0;
         flex-direction: column;
         align-items: center;
         .left{
-            width: 100%;
-            margin: 9% 3%;
+            width: 85%;
+            margin: 8% 3%;
             h3{
-                margin: 1% 6% 0% 0%;
+                margin: 1% 6% 15% 0%;
                 font-size: 155%;
                 text-align: center;
             }
+            img:last-of-type{
+                margin: 14% 0 0% 2%;
+            }
+            span:last-of-type{
+                margin: 15% 0 0% 1%;
+            }
         }
-        .right{}
-        .poppy{}
+        .right{
+            width: 100%;
+            margin:  3%;
+            gap:11% 6%;
+            h3{
+                margin: 1% 11% 12% 5%;
+                font-size: 155%;
+                text-align: center;
+            }
+            img:last-of-type{
+                margin: 12% 0 0% 0%;    
+            }
+            span:last-of-type{
+                margin: 12% 0 0% 0%;
+            }
+        }
+        .poppy{
+            height: 18.8em;
+            width: 100%;
+            background-position: 34% 98%;
+            background-size: 81%;
+        }
     }
 }
