@@ -1,109 +1,14 @@
 .header{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    gap: 25em;
-    flex-shrink: 0;
-    .logo{
-        width: 15%;
-        margin: -1% 0 0 3%;
-        &-head{
-            width: max-content;
-            margin: 22px 0 8px;
-            @include georgia;
-            font-size: 32px;
-            font-style: normal;
-            line-height: 110%;
-            letter-spacing: 0.06em;
-            color: $color-dark-l;
-        }
-        &-text{
-            @include arial;
-            font-size: 81%;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 0.1em;
-            margin: 0 1% 0 3%;
-            color: $color-dark-3-xl;
-            
-        }
-    }
     .nav{
-        width: 30rem;
-        margin: 0.5% 0 0 0.2%;
-        &-list{
-            display: flex;
-            width: 100%;
-            padding: 0;
-            justify-content: space-between;
-            gap: 4%;
-        &-item{
-            display: inline-flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 5% 0 ;
-            
-            a{
-                padding: 0 0 3px 0;
-                color: $color-dark-l;
-                @include arial;
-                line-height: 160%;
-                font-size: 93%;
-
-            }
-        }
+      
+        &-list{   
         &-item:nth-of-type(2){
             a{
                 padding: 0 0 1px 0;
                 color:$color-dark-3-xl;
                 border-bottom: 2px solid $color-primary;
             }
+        }   
         }
-        &-item:last-of-type{
-            margin: 5% 9% 5% 0;
-           
-        }
-        :hover{
-           
-            a{
-                padding: 0 0 1px 0;
-                color:$color-dark-3-xl;
-                border-bottom: 2px solid $color-primary;
-            }
-        }
-        &-link{
-            list-style-type: none;
-            text-decoration: none;
-        }
-        
     }
 }
-}
-@media only screen and (max-width: 768px){
-    .header{
-        padding: 2% 0%;
-        gap:0;
-        .logo{
-            margin: 0 0 0 3.5%;
-            width: 35%;
-            
-            &-head{
-                margin: 0 0 2% 1%;
-                font-size: 200%;
-                line-height: 114%;
-            }
-        }
-        .nav{
-            &-list{
-                &-item{
-                    margin: 3% 0 ;
-                }
-                &-item:last-of-type{
-                    margin: 3% 7% 3% 0;
-                }
-            }
-        }
-    }
-    }

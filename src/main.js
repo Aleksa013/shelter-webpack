@@ -1,5 +1,7 @@
 import './styles/style.scss';
+import './styles/header.scss';
 import './styles/header_main.scss';
+
 
 import NotOnlyComponent from './Components/Not_only_people/not_only';
 import AboutComponent from './Components/About/about';

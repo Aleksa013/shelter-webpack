@@ -102,4 +102,34 @@
         }
     }
    }
+}
+@media screen and (max-width:320px) {
+    .our{
+        padding: 20% 4% 9.5%;
+        &-header{
+            font-size: 148%;
+            margin: 1% 0;
+            line-height: 133%;
+        }
+        &-cards{
+            padding: 13% 0;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-pagination{
+            width: 100%;
+            column-gap: 2%;
+            margin: -10% 0 4%;
+            div{
+                width: 2.7em;
+                height: 2.7em;
+            }
+            .now{
+                width: 2.5em;
+                height: 2.5em;
+            }
+        }
     }
+}

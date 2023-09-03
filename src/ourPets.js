@@ -1,4 +1,5 @@
 import './styles/style.scss';
+import './styles/header.scss';
 import './styles/header_ourPets.scss';
 
 import headerPage from './Components/Header/header';
