@@ -16,7 +16,7 @@ const headerMain = NotOnlyComponent.querySelector('header');
 headerMain.appendChild(headerPage);
 
 // console.log(notOnlyBtn);
-BtnComp(notOnlyBtn,'Make a friend','button-primary','button-primary-text','#');
+BtnComp(notOnlyBtn,'Make a friend','button-primary','button-primary-text','#ourFriends');
 
 export default NotOnlyComponent;
 

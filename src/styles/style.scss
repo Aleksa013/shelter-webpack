@@ -1,6 +1,9 @@
-
+html {
+    scroll-behavior: smooth;
+    }
 body{
     margin: 0;
+  
 }
 
 .container{
@@ -20,7 +23,6 @@ body{
     }
    &-primary{
     background-color: $color-primary;
-    // border: 1px solid $color-primary;
     border-radius: 100px;
     padding: 3% 0%;
     margin: 8% 3% 0 3%;

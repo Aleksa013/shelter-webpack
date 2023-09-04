@@ -1,7 +1,5 @@
 footer{
     display: flex;
-    // background-image: url('../asset/footer-gradient-background.jpg');
-    // background-repeat: no-repeat;
     background-image: url('../asset/noise_transparent@2x.png'),
     radial-gradient(237.50% 111.80% at 0% 0%, #5B483A 0%, #262425 100%);   ;
     padding: 2% 3% 4%;
@@ -31,6 +29,7 @@ footer{
         gap: 0% 7%;
         flex-wrap: wrap;
         align-items: center;
+      
         span:last-of-type{
             margin: 0% 0 12% 0;
             line-height: 113%;
