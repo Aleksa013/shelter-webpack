@@ -43,3 +43,30 @@
         }
     }
 }
+@media screen and (max-width:320px) {
+    .header{
+        .nav{
+            &-list{
+                &-item{
+                    a{
+                        color: $color-dark-s;
+                    }
+                   
+                }
+                :hover{
+                   a{
+                    color:$color-light-s;
+                    border-bottom: 2px solid $color-primary;
+                   }
+                }
+                &-item:nth-of-type(2){
+                a{
+                    padding: 0 0 1px 0;
+                    color:$color-light-s;
+                   
+                }
+                }
+        }
+    }
+}
+}
