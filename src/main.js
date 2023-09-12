@@ -21,4 +21,4 @@ container.appendChild(DonationEl);
 container.appendChild(Footer);
 
 
-console.log(NotOnlyComponent);
+export default container;

@@ -35,9 +35,10 @@ header{
 .not-only-puppy{
     width: 58%;
     background: url(http://localhost:9000/assets/start-screen-puppy.png) no-repeat 7% 100%;
+    background-size: contain;  
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px)  {
     .not-only{
         flex-direction: column;
         align-items: center;

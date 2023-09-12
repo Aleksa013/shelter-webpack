@@ -7,10 +7,13 @@ body{
 }
 
 .container{
-    max-width: 1280px;
+    max-width: calc(1280/1280*100%);
     margin: 0 auto;
 }
-
+.stop{
+    overflow-y: hidden;
+    height: 100vh;
+}
 .button{
     display: flex;
     width: 41%;
@@ -46,17 +49,18 @@ body{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width:768px){
     .container{
-        width: 768px;
+        max-width: calc(768/768*100%);
+        width: 100%;
         
     }
     
 }
 @media only screen and (max-width: 320px){
     .container{
-        width: 320px;
-        
+        max-width: calc(320/320*100%);
+        width: 100%;
     }
     
     

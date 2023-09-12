@@ -5,7 +5,8 @@
         width: 49%;
         background-image: url('../asset/about-pets.png');  
         background-repeat: no-repeat;
-        background-position: 66% 45%    
+        background-position: 66% 45% ;
+        background-size: contain;   
     }
     &-content{
         width: 51%;
@@ -36,7 +37,7 @@
         }
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .about{
         flex-direction: column-reverse;
         align-items: center;
