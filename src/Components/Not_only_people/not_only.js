@@ -12,8 +12,8 @@ import BackgroungOnly from '../../asset/start-screen-gradient-background.jpg';
 const NotOnlyComponent = htmlToElements(NotOnly);
 const notOnlyBtn= NotOnlyComponent.querySelector('.btn-cont');
 // const imagePuppy = NotOnlyComponent.querySelector('.not-only-puppy');
-const headerMain = NotOnlyComponent.querySelector('header');
-headerMain.appendChild(headerPage);
+// const headerMain = NotOnlyComponent.querySelector('header');
+// headerMain.appendChild(headerPage);
 
 // console.log(notOnlyBtn);
 BtnComp(notOnlyBtn,'Make a friend','button-primary','button-primary-text','#ourFriends');

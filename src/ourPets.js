@@ -12,4 +12,3 @@ container.appendChild(headerPage);
 container.appendChild(OurPetsMain);
 container.appendChild(Footer);
 
-export default containerPage;
