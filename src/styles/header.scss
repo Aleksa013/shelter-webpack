@@ -6,8 +6,7 @@
     align-items: center;
     gap: 25em;
     flex-shrink: 0;
-    background-image: url('../asset/noise_transparent@2x.png'),
-    radial-gradient(237.50% 111.80% at 0% 0%, #5B483A 0%, #262425 100%); 
+   
    a{
     display: contents;
     .logo{
@@ -119,9 +118,11 @@
   .header{
    a{
     .logo{
-        margin: 8% 0 0 6%;
+        margin: 3% 0 0 6%;
         width: 60%;
         &-text{
+            display: block;
+            width: 100%;
             margin: 0 0% 0 3%;
         }
         }
@@ -138,7 +139,7 @@
            overflow-y: auto;
         }
         .hide{
-            right:-94%;
+            right:-96%;
             transition: 2s;
         }
         &-list{

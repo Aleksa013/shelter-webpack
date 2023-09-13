@@ -12,7 +12,7 @@ import Footer from './Components/Footer/footer';
 
 const container = document.querySelector('.container');
 
-container.appendChild(headerPage);
+// container.appendChild(headerPage);
 container.appendChild(NotOnlyComponent);
 container.appendChild(AboutComponent);
 container.appendChild(OurFriends);
