@@ -4,9 +4,9 @@ import CardComp from '../Card/card';
 import BtnComp from '../Button/button';
 import '../../styles/our.scss';
 import '../../styles/card.scss';
-import Katty from'../../asset/pets-katrine.png';
-import Jen from '../../asset/pets-jennifer.png';
-import Woody from '../../asset/pets-woody.png';
+import Katty from'../../asset/resourse/images/pets-katrine.png';
+import Jen from '../../asset/resourse/images/pets-jennifer.png';
+import Woody from '../../asset/resourse/images/pets-woody.png';
 const OurFriends = htmlToElements(Our);
 const cards = OurFriends.querySelector('.our_friends-cards');
 
