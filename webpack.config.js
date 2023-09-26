@@ -1,6 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const pages = ['main', 'ourPets'];
+// const json = require('./src/pets.json');
+
+
 module.exports = {
   entry: pages.reduce((config, page)=>{
     config[page] = `./src/${page}.js`;
@@ -54,7 +57,8 @@ module.exports = {
     {
         test:/\.(woff(2)?|eot|ttf|otf)$/i,
         type:'asset/resource',
-    }
+    },
+   
   ]
   },
   plugins:[].concat(

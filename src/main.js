@@ -9,6 +9,8 @@ import OurFriends from './Components/OurFriends/our_friends';
 import HelpOur from './Components/Help/help';
 import DonationEl from './Components/Donation/donation';
 import Footer from './Components/Footer/footer';
+import cards from './js/carousel';
+import pets from './pets.json';
 
 const container = document.querySelector('.container');
 
