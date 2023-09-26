@@ -4,7 +4,7 @@ import CardComp from '../Card/card';
 import Katty from'../../asset/resourse/images/pets-katrine.png';
 import Jen from '../../asset/resourse/images/pets-jennifer.png';
 import Woody from '../../asset/resourse/images/pets-woody.png';
-import Sofia from '../../asset/resourse/images/pets-sofia.png';
+import Sofia from '../../asset/resourse/images/pets-sophia.png';
 import Timmy from '../../asset/resourse/images/pets-timmy.png';
 import Charly from '../../asset/resourse/images/pets-charly.png';
 import Scarlet from '../../asset/resourse/images/pets-scarlet.png';
