@@ -14,7 +14,7 @@ const CardComp= function(elem,name,linkImage){
     BtnComp(cardBtn ,'Learn more', 'card-button', 'card-button-text', '#');
     
     elem.appendChild(card);
-
+    console.log(elem)
 };
 
 export default CardComp;
