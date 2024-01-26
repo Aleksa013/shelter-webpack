@@ -25,8 +25,33 @@ document.addEventListener('DOMContentLoaded', () =>{
 });
 
 
+class User{
+ constructor(name, age){
+ this.name = name;
+ this._age = age;
+ }
 
 
+ #surname = "Ilchenko"
+ say = ()=> {
+   console.log(`Users name is ${this.name}  ${this.#surname}  and users age ${this.age}`);
+ }
+
+ get age(){
+   return this._age;
+ }
+
+ set age(num) {
+   num > 0 && num < 110 && typeof(num) == 'number'?
+    this._age = num :
+    console.log('Wrong data');
+
+ }
+}
+const semen = new User('Semen', 9);
+semen.age = 12;
+console.log(semen.age);
+semen.say();
 
 
 
